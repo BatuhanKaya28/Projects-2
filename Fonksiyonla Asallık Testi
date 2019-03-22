@@ -1,0 +1,33 @@
+
+#include <stdio.h>
+
+int isPrime(int n);
+void writePrimes(int n);
+
+int main(void) {
+
+  int n;
+  isPrime(100);
+  return 0;
+}
+
+int isPrime(int n){
+
+
+for (int i = 2; i < n; i ++)
+{
+
+if (n%i==0){
+    printf("\nsayi asal degildir");
+    break;
+}
+else{
+    printf("sayi asaldir");
+    break;
+}
+}
+return 0;
+
+
+}
+
